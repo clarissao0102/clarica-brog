@@ -1,0 +1,22 @@
+body{
+    color: rgb(1, 3, 3);
+    background-color: teal;
+    margin:0px;
+    font-family: "New Amsterdam", sans-serif;
+}
+header{
+    border-bottom: solid 2px black;
+    font-size: 50px;
+    padding: 30px;
+
+}
+section{
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background: lightblue;
+    justify-content: center;
+}
+.titulo-video{
+    margin-right: 20px;
+}
