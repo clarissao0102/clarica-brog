@@ -1,22 +1,62 @@
-body{
-    color: rgb(1, 3, 3);
-    background-color: teal;
-    margin:0px;
-    font-family: "New Amsterdam", sans-serif;
+body {
+    background: radial-gradient(#f108b7, rgb(210, 47, 153));
+    color: rgb(222, 37, 173);
+    margin: 20px;
+    font-family: "Bebas Neue", sans-serif;
 }
+
 header{
-    border-bottom: solid 2px black;
-    font-size: 50px;
-    padding: 30px;
+    border-bottom: solid 2px ,b(247, 209, 173);
+    padding: 20px;
+font-size: 32px;
+color: rgb(11, 19, 92);
 
 }
-section{
-    display: flex;
+.chamada {
+    background: rgb(189, 20, 163);
     padding-bottom: 80px;
     padding-top: 80px;
-    background: lightblue;
+    display: flex;
     justify-content: center;
 }
-.titulo-video{
-    margin-right: 20px;
+
+.chamada-texto {
+    margin-right: 5%;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section {
+    background: hsl(235, 75%, 31%);
+    padding-bottom: 35px;
+    padding-top:35px;
+	display: flex;
+	justify-content: center;
+}
+ 
+div {
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 40px;
+    }
